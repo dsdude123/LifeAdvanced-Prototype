@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GOL-UIPrototype")]
+[assembly: AssemblyTitle("Life Advanced")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GOL-UIPrototype")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("Life Advanced")]
+[assembly: AssemblyCopyright("Copyright © 2017 Wolverine Gaming")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

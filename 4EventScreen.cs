@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GOL_UIPrototype
+namespace LifeAdvanced
 {
     public partial class _4EventScreen : Form
     {

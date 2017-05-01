@@ -1,4 +1,4 @@
-﻿namespace GOL_UIPrototype
+﻿namespace LifeAdvanced
 {
     partial class _4EventScreen
     {
