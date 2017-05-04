@@ -19,7 +19,7 @@ namespace LifeAdvanced
                 this.max = max;
                 this.min = min;
             }
-            else if (v == min || v = max)
+            else if (v == min || v == max)
             {
                 this.value = v;
                 this.max = max;
@@ -50,13 +50,13 @@ namespace LifeAdvanced
 
         public void set(int n)
         {
-            if (v > min && v < max)
+            if (n > min && n < max)
             {
-                this.value = v;
+                this.value = n;
             }
-            else if (v == min || v = max)
+            else if (n == min || n == max)
             {
-                this.value = v;
+                this.value = n;
             }
             else
             {

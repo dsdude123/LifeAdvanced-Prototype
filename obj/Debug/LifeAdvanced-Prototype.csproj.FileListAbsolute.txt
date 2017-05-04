@@ -1,0 +1,9 @@
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\ResolveAssemblyReference.cache
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\LifeAdvanced._4EventScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\LifeAdvanced.Form1.resources
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\LifeAdvanced.Properties.Resources.resources
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\LifeAdvanced-Prototype.csproj.GenerateResource.Cache
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\bin\Debug\GOL-UIPrototype.exe
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\bin\Debug\GOL-UIPrototype.pdb
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\GOL-UIPrototype.exe
+D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\GOL-UIPrototype.pdb

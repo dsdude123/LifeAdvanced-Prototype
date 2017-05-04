@@ -54,6 +54,8 @@
     <Compile Include="4EventScreen.Designer.cs">
       <DependentUpon>4EventScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Event.cs" />
+    <Compile Include="Events\CarCrash.cs" />
     <Compile Include="GameStat.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="Form1.cs">
