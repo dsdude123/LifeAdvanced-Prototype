@@ -5,20 +5,20 @@ using System.Text;
 
 namespace LifeAdvanced
 {   
-    public interface Event
+    public abstract class Event
     {
-        String eventName{get; set;}
-        String eventText{ get; set; }
+        public String eventName;
+        public String eventText;
 
-        String choice1Text{ get; set; }
-        String choice2Text{ get; set; }
+        public String choice1Text;
+        public String choice2Text;
 
-        String resultText{ get; set; }
+        public String resultText;
 
-        void choice1();
-        void choice2();
+        public abstract void initEvent();
 
-        void choice1Result();
-        void choice2Result();
+        public abstract String[] choice1();
+        public abstract String[] choice2();
+
     }
 }

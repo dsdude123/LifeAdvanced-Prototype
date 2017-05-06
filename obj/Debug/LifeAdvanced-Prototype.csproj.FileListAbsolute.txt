@@ -7,3 +7,5 @@ D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\bin\Debug\GOL-UIProtot
 D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\bin\Debug\GOL-UIPrototype.pdb
 D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\GOL-UIPrototype.exe
 D:\dsdud\Documents\Visual Studio Projects\GOL-UIPrototype\obj\Debug\GOL-UIPrototype.pdb
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\Debug\GOL-UIPrototype.exe
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\Debug\GOL-UIPrototype.pdb

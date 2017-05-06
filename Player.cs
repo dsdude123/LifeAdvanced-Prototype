@@ -7,15 +7,26 @@ namespace LifeAdvanced
 {
     class Player
     {
-        String playerName;
-        Money funds;
+        int tilePos;
 
-        GameStat stress;
-        GameStat energy;
-        GameStat PWB;
+        //String playerName;
+        //Money funds;
+
+        //GameStat stress;
+        //GameStat energy;
+        //GameStat PWB;
         //mising some stats here
+        //int lifeTiles;
 
-        int lifeTiles;
+        public Player() 
+        {
+            tilePos = 0;
+        }
+
+        public Player(int startPos)
+        {
+            tilePos = startPos;
+        }
 
     }
 }
