@@ -9,3 +9,5 @@ C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\Lif
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvancedPrototype.pdb
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Resource1.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameSetup.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.TurnScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.EventScreen.resources
