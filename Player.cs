@@ -7,7 +7,11 @@ namespace LifeAdvanced
 {
     class Player
     {
+<<<<<<< HEAD
+        public int tilePos;
+=======
         int tilePos;
+>>>>>>> master
 
         //String playerName;
         //Money funds;

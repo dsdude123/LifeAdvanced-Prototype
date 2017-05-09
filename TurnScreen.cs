@@ -51,6 +51,42 @@ namespace LifeAdvanced
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
+<<<<<<< HEAD
+            if (Global.playerTurn == 1)
+            {
+                if (Global.cardTiles.Contains(Global.p1.tilePos))
+                {
+                    //open card draw screen
+                }
+                else
+                {
+                    bool found = false;
+                    while (!found)
+                    {
+                        Event randomEvent = Global.getRandomEvent();
+
+                    }
+                }
+            }
+            else if (Global.playerTurn == 2)
+            {
+                label1.Text = "Player 2's Turn";
+            }
+            else if (Global.playerTurn == 3)
+            {
+                label1.Text = "Player 3's Turn";
+            }
+            else if (Global.playerTurn == 4)
+            {
+                label1.Text = "Player 4's Turn";
+            }
+            else if (Global.playerTurn == 5)
+            {
+                label1.Text = "Player 5's Turn";
+            }
+
+=======
+>>>>>>> master
             /**
              * get current player
              * if (Player.titlePos = CARD_TILES)

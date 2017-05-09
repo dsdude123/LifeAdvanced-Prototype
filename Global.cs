@@ -13,6 +13,10 @@ namespace LifeAdvanced
         public static int playerTurn = 1;
         public static Event currentEvent;
         public static List<Event> eventDatabase;
+<<<<<<< HEAD
+        public static int[] cardTiles;
+=======
+>>>>>>> master
 
         public static void populateDatabase()
         {
@@ -20,5 +24,14 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.CarCrash());
 
         }
+<<<<<<< HEAD
+
+        public static Event getRandomEvent()
+        {
+            Random c = new Random();
+            return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Capacity - 1)));   
+        }
+=======
+>>>>>>> master
     }
 }
