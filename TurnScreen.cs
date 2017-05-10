@@ -51,7 +51,7 @@ namespace LifeAdvanced
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
-<<<<<<< HEAD
+
             if (Global.playerTurn == 1)
             {
                 if (Global.cardTiles.Contains(Global.p1.tilePos))
@@ -85,8 +85,7 @@ namespace LifeAdvanced
                 label1.Text = "Player 5's Turn";
             }
 
-=======
->>>>>>> master
+
             /**
              * get current player
              * if (Player.titlePos = CARD_TILES)
