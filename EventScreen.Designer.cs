@@ -37,7 +37,7 @@
             // title
             // 
             this.title.AutoSize = true;
-            this.title.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.title.BackColor = System.Drawing.Color.Black;
             this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.White;
             this.title.Location = new System.Drawing.Point(460, 61);
@@ -59,6 +59,7 @@
             // 
             // choice1
             // 
+            this.choice1.BackColor = System.Drawing.Color.White;
             this.choice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choice1.Location = new System.Drawing.Point(12, 435);
             this.choice1.Name = "choice1";
@@ -66,11 +67,12 @@
             this.choice1.TabIndex = 2;
             this.choice1.Text = "Choice 1";
             this.choice1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.choice1.UseVisualStyleBackColor = true;
+            this.choice1.UseVisualStyleBackColor = false;
             this.choice1.Click += new System.EventHandler(this.choice1_Click);
             // 
             // choice2
             // 
+            this.choice2.BackColor = System.Drawing.Color.White;
             this.choice2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choice2.Location = new System.Drawing.Point(12, 556);
             this.choice2.Name = "choice2";
@@ -78,7 +80,7 @@
             this.choice2.TabIndex = 3;
             this.choice2.Text = "Choice 2";
             this.choice2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.choice2.UseVisualStyleBackColor = true;
+            this.choice2.UseVisualStyleBackColor = false;
             this.choice2.Click += new System.EventHandler(this.choice2_Click);
             // 
             // EventScreen
