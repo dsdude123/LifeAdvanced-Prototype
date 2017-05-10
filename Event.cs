@@ -15,10 +15,13 @@ namespace LifeAdvanced
 
         public String resultText;
 
+        public int[] phaseCodes;
+
         public abstract void initEvent();
 
         public abstract String[] choice1();
         public abstract String[] choice2();
+        
 
     }
 }

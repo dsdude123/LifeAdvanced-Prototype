@@ -14,6 +14,7 @@ namespace LifeAdvanced.Events
             this.eventText = "Event text here";
             this.choice1Text = "Stay at Scene";
             this.choice2Text = "Flee";
+            this.phaseCodes = new int[8] { 2, 3, 4, 5, 6, 7, 8, 9 };
         }
         public override String[] choice1()
         {

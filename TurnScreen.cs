@@ -16,11 +16,6 @@ namespace LifeAdvanced
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void TurnScreen_Load(object sender, EventArgs e)
         {
             if (Global.playerTurn == 1)
@@ -64,7 +59,15 @@ namespace LifeAdvanced
                     while (!found)
                     {
                         Event randomEvent = Global.getRandomEvent();
-
+                        int currentPhase = Global.p1.getPhase();
+                        if(randomEvent.phaseCodes.Contains(currentPhase))
+                        {
+                            found = true;
+                        }
+                        else if (randomEvent.phaseCodes.Contains(0))
+                        {
+                            found = true;
+                        }
                     }
                 }
             }

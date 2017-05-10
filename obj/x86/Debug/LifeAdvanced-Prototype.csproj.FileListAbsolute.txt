@@ -1,5 +1,4 @@
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced._4EventScreen.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Form1.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Properties.Resources.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced-Prototype.csproj.GenerateResource.Cache
