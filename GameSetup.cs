@@ -67,6 +67,14 @@ namespace LifeAdvanced
             {
                 throw new ArgumentOutOfRangeException();
             }
+            Form newGame = new TurnScreen();
+            newGame.Show();
+            this.Hide();
+        }
+
+        private void GameSetup_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

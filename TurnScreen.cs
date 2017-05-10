@@ -60,48 +60,136 @@ namespace LifeAdvanced
                     {
                         Event randomEvent = Global.getRandomEvent();
                         int currentPhase = Global.p1.getPhase();
-                        if(randomEvent.phaseCodes.Contains(currentPhase))
+                        if(randomEvent.phaseCodes.Contains<int>(currentPhase))
                         {
                             found = true;
+                            Global.currentEvent = randomEvent;
                         }
-                        else if (randomEvent.phaseCodes.Contains(0))
+                        else if (randomEvent.phaseCodes.Contains<int>(0))
                         {
                             found = true;
+                            Global.currentEvent = randomEvent;
                         }
+
                     }
                 }
             }
             else if (Global.playerTurn == 2)
             {
-                label1.Text = "Player 2's Turn";
+                if (Global.cardTiles.Contains(Global.p2.tilePos))
+                {
+                    //open card draw screen
+                }
+                else
+                {
+                    bool found = false;
+                    while (!found)
+                    {
+                        Event randomEvent = Global.getRandomEvent();
+                        int currentPhase = Global.p2.getPhase();
+                        if (randomEvent.phaseCodes.Contains(currentPhase))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+                        else if (randomEvent.phaseCodes.Contains(0))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+
+                    }
+                }
             }
             else if (Global.playerTurn == 3)
             {
-                label1.Text = "Player 3's Turn";
+                if (Global.cardTiles.Contains(Global.p3.tilePos))
+                {
+                    //open card draw screen
+                }
+                else
+                {
+                    bool found = false;
+                    while (!found)
+                    {
+                        Event randomEvent = Global.getRandomEvent();
+                        int currentPhase = Global.p3.getPhase();
+                        if (randomEvent.phaseCodes.Contains(currentPhase))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+                        else if (randomEvent.phaseCodes.Contains(0))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+
+                    }
+                }
             }
             else if (Global.playerTurn == 4)
             {
-                label1.Text = "Player 4's Turn";
+                if (Global.cardTiles.Contains(Global.p4.tilePos))
+                {
+                    //open card draw screen
+                }
+                else
+                {
+                    bool found = false;
+                    while (!found)
+                    {
+                        Event randomEvent = Global.getRandomEvent();
+                        int currentPhase = Global.p4.getPhase();
+                        if (randomEvent.phaseCodes.Contains(currentPhase))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+                        else if (randomEvent.phaseCodes.Contains(0))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+
+                    }
+                }
             }
             else if (Global.playerTurn == 5)
             {
-                label1.Text = "Player 5's Turn";
+                if (Global.cardTiles.Contains(Global.p5.tilePos))
+                {
+                    //open card draw screen
+                }
+                else
+                {
+                    bool found = false;
+                    while (!found)
+                    {
+                        Event randomEvent = Global.getRandomEvent();
+                        int currentPhase = Global.p5.getPhase();
+                        if (randomEvent.phaseCodes.Contains(currentPhase))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+                        else if (randomEvent.phaseCodes.Contains(0))
+                        {
+                            found = true;
+                            Global.currentEvent = randomEvent;
+                        }
+
+                    }
+                }
+            }
+            else
+            {
+                throw new ExecutionEngineException();
             }
 
-
-            /**
-             * get current player
-             * if (Player.titlePos = CARD_TILES)
-             * then open card draw screen
-             * else
-             * while event not selected
-             * get random event
-             * check age restriction
-             * if valid or no restriction end while
-             * 
-             * open event screen
-             */
-            //event code here
+            Form newGame = new EventScreen();
+            newGame.Show();
+            this.Hide();
         }
     }
 }

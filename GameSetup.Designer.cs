@@ -105,6 +105,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "GameSetup";
             this.Text = "GameSetup";
+            this.Load += new System.EventHandler(this.GameSetup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -7,7 +7,7 @@ namespace LifeAdvanced
 {
     class Global
     {
-        public static int demoPos = 20;
+        public static int demoPos = 6;
         public static Player p1, p2, p3, p4, p5;
         public static int numPlayers;
         public static int playerTurn = 1;
@@ -21,12 +21,15 @@ namespace LifeAdvanced
         {
             eventDatabase = new List<Event>();
             eventDatabase.Add(new Events.CarCrash());
+            eventDatabase.Add(new Events.CarCrash());//Temporary to populate database
+            eventDatabase.Add(new Events.CarCrash());
 
         }
 
 
         public static Event getRandomEvent()
         {
+            //TODO: Fix 1 event or empty database bug
             Random c = new Random();
             return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Capacity - 1)));   
         }

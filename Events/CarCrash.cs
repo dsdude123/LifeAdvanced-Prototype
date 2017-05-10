@@ -7,6 +7,10 @@ namespace LifeAdvanced.Events
 {
     class CarCrash : Event
     {
+        public CarCrash()
+        {
+            initEvent();
+        }
 
         public override void initEvent()
         {
