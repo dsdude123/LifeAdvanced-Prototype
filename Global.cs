@@ -14,7 +14,7 @@ namespace LifeAdvanced
         public static Event currentEvent;
         public static List<Event> eventDatabase;
 
-        public static int[] cardTiles;
+        public static int[] cardTiles = new int[9] {2,8,15,18,22,26,32,36,41};
 
 
         public static void populateDatabase()
