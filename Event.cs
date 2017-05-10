@@ -14,13 +14,16 @@ namespace LifeAdvanced
         public String choice2Text;
 
         public String resultText;
+        public String effectText;
+
+        public Random effectChooser;
 
         public int[] phaseCodes;
 
         public abstract void initEvent();
 
-        public abstract String[] choice1();
-        public abstract String[] choice2();
+        public abstract void choice1();
+        public abstract void choice2();
         
 
     }

@@ -20,13 +20,13 @@ namespace LifeAdvanced.Events
             this.choice2Text = "Flee";
             this.phaseCodes = new int[8] { 2, 3, 4, 5, 6, 7, 8, 9 };
         }
-        public override String[] choice1()
+        public override void choice1()
         {
-            return new String[3];
+            return;
         }
-        public override String[] choice2()
+        public override void choice2()
         {
-            return new String[3];
+            return;
         }
 
 
