@@ -10,3 +10,15 @@ C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\Lif
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameSetup.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.TurnScreen.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.EventScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvancedPrototype.exe
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvancedPrototype.pdb
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.EventScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Form1.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameSetup.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Properties.Resources.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Resource1.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.TurnScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced-Prototype.csproj.GenerateResource.Cache
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Debug\LifeAdvancedPrototype.exe
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Debug\LifeAdvancedPrototype.pdb
