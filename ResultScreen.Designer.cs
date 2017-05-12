@@ -90,7 +90,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1024, 577);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.choice2);
             this.Controls.Add(this.choice1);
             this.Controls.Add(this.text);
