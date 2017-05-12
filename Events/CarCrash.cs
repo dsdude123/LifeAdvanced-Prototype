@@ -23,7 +23,7 @@ namespace LifeAdvanced.Events
         }
         public override void choice1()
         {
-            int c = effectChooser.Next(1, 3);
+            int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
                 this.resultText = "You exchange insurance information.";
@@ -47,7 +47,7 @@ namespace LifeAdvanced.Events
         }
         public override void choice2()
         {
-            int c = effectChooser.Next(1, 3);
+            int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
                 this.resultText = "Your attempt to flee seems sucessful at first, but the next morning you are awoken by police at your front door and arrested for hit and run.";
