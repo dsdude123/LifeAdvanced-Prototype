@@ -27,13 +27,17 @@ namespace LifeAdvanced
         private void choice1_Click(object sender, EventArgs e)
         {
             Global.currentEvent.choice1();
-            //go to results
+            Form newGame = new ResultScreen();
+            newGame.Show();
+            this.Hide();
         }
 
         private void choice2_Click(object sender, EventArgs e)
         {
             Global.currentEvent.choice2();
-            //go to results
+            Form newGame = new ResultScreen();
+            newGame.Show();
+            this.Hide();
         }
     }
 }
