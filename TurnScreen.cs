@@ -18,24 +18,56 @@ namespace LifeAdvanced
 
         private void TurnScreen_Load(object sender, EventArgs e)
         {
+            if (checkEndGame())
+            {
+                //Form newGame = new GameOverScreen();
+                //newGame.Show();
+                //this.Hide();
+            }
+            
             if (Global.playerTurn == 1)
             {
+                if (Global.p1.tilePos >= 26)
+                {
+                    ResultScreen skip = new ResultScreen();
+                    skip.turnOverride();
+                }
                 label1.Text = "Player 1's Turn";
             }
             else if (Global.playerTurn == 2)
             {
+                if (Global.p2.tilePos >= 26)
+                {
+                    ResultScreen skip = new ResultScreen();
+                    skip.turnOverride();
+                }
                 label1.Text = "Player 2's Turn";
             }
             else if (Global.playerTurn == 3)
             {
+                if (Global.p3.tilePos >= 26)
+                {
+                    ResultScreen skip = new ResultScreen();
+                    skip.turnOverride();
+                }
                 label1.Text = "Player 3's Turn";
             }
             else if (Global.playerTurn == 4)
             {
+                if (Global.p4.tilePos >= 26)
+                {
+                    ResultScreen skip = new ResultScreen();
+                    skip.turnOverride();
+                }
                 label1.Text = "Player 4's Turn";
             }
             else if (Global.playerTurn == 5)
             {
+                if (Global.p5.tilePos >= 26)
+                {
+                    ResultScreen skip = new ResultScreen();
+                    skip.turnOverride();
+                }
                 label1.Text = "Player 5's Turn";
             }
 
@@ -190,6 +222,47 @@ namespace LifeAdvanced
             Form newGame = new EventScreen();
             newGame.Show();
             this.Hide();
+        }
+
+        public bool checkEndGame()
+        {
+            if (Global.numPlayers == 1)
+            {
+                if (Global.p1.tilePos >= Global.endPos)
+                {
+                    return true;
+                }
+            }
+            else if (Global.numPlayers == 2)
+            {
+                if ((Global.p1.tilePos >= Global.endPos) && (Global.p2.tilePos >= Global.endPos))
+                {
+                    return true;
+                }
+            }
+            else if (Global.numPlayers == 3)
+            {
+                if ((Global.p1.tilePos >= Global.endPos) && (Global.p2.tilePos >= Global.endPos) && (Global.p3.tilePos >= Global.endPos))
+                {
+                    return true;
+                }
+            }
+            else if (Global.numPlayers == 4)
+            {
+                if ((Global.p1.tilePos >= Global.endPos) && (Global.p2.tilePos >= Global.endPos) && (Global.p3.tilePos >= Global.endPos) && (Global.p4.tilePos >= Global.endPos))
+                {
+                    return true;
+                }
+            }
+            else if (Global.numPlayers == 5)
+            {
+                if ((Global.p1.tilePos >= Global.endPos) && (Global.p2.tilePos >= Global.endPos) && (Global.p3.tilePos >= Global.endPos) && (Global.p4.tilePos >= Global.endPos) && (Global.p5.tilePos >= Global.endPos))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

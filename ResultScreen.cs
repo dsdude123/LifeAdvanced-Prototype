@@ -19,21 +19,58 @@ namespace LifeAdvanced
         private void EventScreen_Load(object sender, EventArgs e)
         {
             title.Text = Global.currentEvent.eventName;
-            text.Text = Global.currentEvent.eventText;
-            choice1.Text = Global.currentEvent.choice1Text;
-            choice2.Text = Global.currentEvent.choice2Text;
+            text.Text = Global.currentEvent.resultText;
+
         }
 
         private void choice1_Click(object sender, EventArgs e)
         {
-            Global.currentEvent.choice1();
-            //go to results
+            if (Global.playerTurn < Global.numPlayers)
+            {
+                advancePosition();
+                Global.playerTurn++;
+            }
+            else
+            {
+                advancePosition();
+                Global.playerTurn = 1;
+            }
+            Form newGame = new TurnScreen();
+            newGame.Show();
+            this.Hide();
+
+
         }
 
-        private void choice2_Click(object sender, EventArgs e)
+        public void turnOverride()
         {
-            Global.currentEvent.choice2();
-            //go to results
+            choice1_Click(new Object(),new EventArgs());
+
+        }
+
+        private void advancePosition()
+        {
+            if (Global.playerTurn == 1)
+            {
+                Global.p1.tilePos++;
+            }
+            else if (Global.playerTurn == 2)
+            {
+                Global.p2.tilePos++;
+            }
+            else if (Global.playerTurn == 3)
+            {
+                Global.p3.tilePos++;
+            }
+            else if (Global.playerTurn == 4)
+            {
+                Global.p4.tilePos++;
+            }
+            else if (Global.playerTurn == 5)
+            {
+                Global.p5.tilePos++;
+            }
+
         }
     }
 }
