@@ -67,6 +67,7 @@ namespace LifeAdvanced
             {
                 throw new ArgumentOutOfRangeException();
             }
+            MessageBox.Show("For demo purposes, you will start at tile 20 and play until tile 26 (age 16-55).", "Demo Version", MessageBoxButtons.OK,MessageBoxIcon.Warning);
             Form newGame = new TurnScreen();
             newGame.Show();
             this.Hide();
