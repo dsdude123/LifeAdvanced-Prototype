@@ -31,6 +31,7 @@ namespace LifeAdvanced
             {
                 GameSetup newGame = new GameSetup();
                 newGame.Show();
+                newGame.Location = this.Location;
                 this.Hide();
                 
 

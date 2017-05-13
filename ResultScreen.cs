@@ -37,6 +37,7 @@ namespace LifeAdvanced
             }
             Form newGame = new TurnScreen();
             newGame.Show();
+            newGame.Location = this.Location;
             this.Hide();
 
 

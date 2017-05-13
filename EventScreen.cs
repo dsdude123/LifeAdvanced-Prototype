@@ -29,6 +29,7 @@ namespace LifeAdvanced
             Global.currentEvent.choice1();
             Form newGame = new ResultScreen();
             newGame.Show();
+            newGame.Location = this.Location;
             this.Hide();
         }
 
@@ -37,6 +38,7 @@ namespace LifeAdvanced
             Global.currentEvent.choice2();
             Form newGame = new ResultScreen();
             newGame.Show();
+            newGame.Location = this.Location;
             this.Hide();
         }
     }

@@ -221,6 +221,7 @@ namespace LifeAdvanced
 
             Form newGame = new EventScreen();
             newGame.Show();
+            newGame.Location = this.Location;
             this.Hide();
         }
 
