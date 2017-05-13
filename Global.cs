@@ -8,7 +8,7 @@ namespace LifeAdvanced
     class Global
     {
         public static int demoPos = 6;
-        public static int endPos = 26;
+        public static int endPos = 8;
         public static Player p1, p2, p3, p4, p5;
         public static int numPlayers;
         public static int playerTurn = 1;

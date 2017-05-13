@@ -90,6 +90,8 @@
             this.Controls.Add(this.label1);
             this.Name = "GameOver";
             this.Text = "GameOver";
+            this.Load += new System.EventHandler(this.GameOver_Load);
+            this.Shown += new System.EventHandler(this.GameOver_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

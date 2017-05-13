@@ -20,9 +20,12 @@ namespace LifeAdvanced
         {
             if (checkEndGame())
             {
-                //Form newGame = new GameOverScreen();
-                //newGame.Show();
-                //this.Hide();
+                Form newGame = new GameOver();
+                newGame.Show();
+                newGame.Location = this.Location;
+                this.Hide();
+                Global.playerTurn = -1;
+                
             }
             
             if (Global.playerTurn == 1)
@@ -70,8 +73,10 @@ namespace LifeAdvanced
                 }
                 label1.Text = "Player 5's Turn";
             }
-
-            timer1.Start();
+            if (Global.playerTurn != -1)
+            {
+                timer1.Start();
+            }
 
         }
 

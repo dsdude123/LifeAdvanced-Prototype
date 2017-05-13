@@ -26,5 +26,27 @@ namespace LifeAdvanced
             Application.Restart();
         }
 
+        private void GameOver_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void GameOver_Shown(object sender, EventArgs e)
+        {
+            List<Form> activeForms = new List<Form>();
+            foreach (Form f in Application.OpenForms)
+            {
+                activeForms.Add(f);
+            }
+            foreach (Form f in activeForms)
+            {
+                if (f.Name == "TurnScreen") //This is kinda a hack but it works
+                {
+                    f.Close();
+                }
+            }
+        }
+
     }
 }
