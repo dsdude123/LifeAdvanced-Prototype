@@ -31,6 +31,7 @@
             this.title = new System.Windows.Forms.Label();
             this.text = new System.Windows.Forms.TextBox();
             this.choice1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title
@@ -54,7 +55,7 @@
             this.text.Multiline = true;
             this.text.Name = "text";
             this.text.ReadOnly = true;
-            this.text.Size = new System.Drawing.Size(1240, 262);
+            this.text.Size = new System.Drawing.Size(1240, 172);
             this.text.TabIndex = 1;
             this.text.Text = "Event Text";
             // 
@@ -70,12 +71,25 @@
             this.choice1.UseVisualStyleBackColor = false;
             this.choice1.Click += new System.EventHandler(this.choice1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(577, 372);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ResultScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.choice1);
             this.Controls.Add(this.text);
             this.Controls.Add(this.title);
@@ -93,5 +107,6 @@
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.TextBox text;
         private System.Windows.Forms.Button choice1;
+        private System.Windows.Forms.Label label1;
     }
 }

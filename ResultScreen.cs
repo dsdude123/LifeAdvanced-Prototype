@@ -20,6 +20,7 @@ namespace LifeAdvanced
         {
             title.Text = Global.currentEvent.eventName;
             text.Text = Global.currentEvent.resultText;
+            label1.Text = Global.currentEvent.effectText;
 
         }
 
