@@ -30,7 +30,7 @@ namespace LifeAdvanced
             
             if (Global.playerTurn == 1)
             {
-                if (Global.p1.tilePos >= 26)
+                if (Global.p1.tilePos >= Global.endPos)
                 {
                     ResultScreen skip = new ResultScreen();
                     skip.turnOverride();
@@ -39,7 +39,7 @@ namespace LifeAdvanced
             }
             else if (Global.playerTurn == 2)
             {
-                if (Global.p2.tilePos >= 26)
+                if (Global.p2.tilePos >= Global.endPos)
                 {
                     ResultScreen skip = new ResultScreen();
                     skip.turnOverride();
@@ -48,7 +48,7 @@ namespace LifeAdvanced
             }
             else if (Global.playerTurn == 3)
             {
-                if (Global.p3.tilePos >= 26)
+                if (Global.p3.tilePos >= Global.endPos)
                 {
                     ResultScreen skip = new ResultScreen();
                     skip.turnOverride();
@@ -57,7 +57,7 @@ namespace LifeAdvanced
             }
             else if (Global.playerTurn == 4)
             {
-                if (Global.p4.tilePos >= 26)
+                if (Global.p4.tilePos >= Global.endPos)
                 {
                     ResultScreen skip = new ResultScreen();
                     skip.turnOverride();
@@ -66,7 +66,7 @@ namespace LifeAdvanced
             }
             else if (Global.playerTurn == 5)
             {
-                if (Global.p5.tilePos >= 26)
+                if (Global.p5.tilePos >= Global.endPos)
                 {
                     ResultScreen skip = new ResultScreen();
                     skip.turnOverride();
@@ -88,7 +88,11 @@ namespace LifeAdvanced
             {
                 if (Global.cardTiles.Contains(Global.p1.tilePos))
                 {
-                    //open card draw screen
+                    Form newGamea = new CardScreen();
+                    newGamea.Show();
+                    newGamea.Location = this.Location;
+                    this.Hide();
+                    return;
                 }
                 else
                 {
@@ -115,7 +119,11 @@ namespace LifeAdvanced
             {
                 if (Global.cardTiles.Contains(Global.p2.tilePos))
                 {
-                    //open card draw screen
+                    Form newGameb = new CardScreen();
+                    newGameb.Show();
+                    newGameb.Location = this.Location;
+                    this.Hide();
+                    return;
                 }
                 else
                 {
@@ -142,7 +150,11 @@ namespace LifeAdvanced
             {
                 if (Global.cardTiles.Contains(Global.p3.tilePos))
                 {
-                    //open card draw screen
+                    Form newGamec = new CardScreen();
+                    newGamec.Show();
+                    newGamec.Location = this.Location;
+                    this.Hide();
+                    return;
                 }
                 else
                 {
@@ -169,7 +181,11 @@ namespace LifeAdvanced
             {
                 if (Global.cardTiles.Contains(Global.p4.tilePos))
                 {
-                    //open card draw screen
+                    Form newGamed = new CardScreen();
+                    newGamed.Show();
+                    newGamed.Location = this.Location;
+                    this.Hide();
+                    return;
                 }
                 else
                 {
@@ -196,7 +212,11 @@ namespace LifeAdvanced
             {
                 if (Global.cardTiles.Contains(Global.p5.tilePos))
                 {
-                    //open card draw screen
+                    Form newGamee = new CardScreen();
+                    newGamee.Show();
+                    newGamee.Location = this.Location;
+                    this.Hide();
+                    return;
                 }
                 else
                 {

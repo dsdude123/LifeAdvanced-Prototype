@@ -22,6 +22,8 @@ namespace LifeAdvanced
         private void Form1_Load(object sender, EventArgs e)
         {
             Global.populateDatabase();
+            //Global.populateCardDatabase();
+            //Temporarily moved to game setup
             
         }
 

@@ -87,6 +87,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CardScreen";
             this.Text = "CardScreen";
+            this.Load += new System.EventHandler(this.CardScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

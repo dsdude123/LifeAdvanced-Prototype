@@ -21,7 +21,13 @@ namespace LifeAdvanced
             title.Text = Global.currentEvent.eventName;
             text.Text = Global.currentEvent.resultText;
             label1.Text = Global.currentEvent.effectText;
-
+            if (Global.isCard)
+            {
+                title.Text = Global.currentCardEvent.eventName;
+                text.Text = Global.currentCardEvent.resultText;
+                label1.Text = Global.currentCardEvent.effectText;
+                Global.isCard = false;
+            }
         }
 
         private void choice1_Click(object sender, EventArgs e)

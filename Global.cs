@@ -8,7 +8,7 @@ namespace LifeAdvanced
     class Global
     {
         public static int demoPos = 6;
-        public static int endPos = 8;
+        public static int endPos = 26;
         public static Player p1, p2, p3, p4, p5;
         public static int numPlayers;
         public static int playerTurn = 1;
@@ -16,6 +16,7 @@ namespace LifeAdvanced
         public static CardEvent currentCardEvent;
         public static List<Event> eventDatabase;
         public static List<CardEvent> cardDatabase;
+        public static bool isCard = false;
 
         public static int[] cardTiles = new int[9] {2,8,15,18,22,26,32,36,41};
 
@@ -29,7 +30,7 @@ namespace LifeAdvanced
         public static void populateCardDatabase()
         {
             cardDatabase = new List<CardEvent>();
-            //Add card events here
+            cardDatabase.Add(new CardEvents.TestCard());
         }
 
 
@@ -45,6 +46,32 @@ namespace LifeAdvanced
                 return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Count() - 1)));  
             }
  
+        }
+
+        public static int getCurrentPhase()
+        {
+            if (Global.playerTurn == 1)
+            {
+                return p1.getPhase();
+            }
+            else if (Global.playerTurn == 2)
+            {
+                return p2.getPhase();
+            }
+            else if (Global.playerTurn == 3)
+            {
+                return p3.getPhase();
+            }
+            else if (Global.playerTurn == 4)
+            {
+                return p4.getPhase();
+            }
+            else if (Global.playerTurn == 5)
+            {
+                return p5.getPhase();
+            }
+
+            throw new ExecutionEngineException();
         }
     }
 }

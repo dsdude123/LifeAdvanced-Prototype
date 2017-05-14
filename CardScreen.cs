@@ -20,9 +20,10 @@ namespace LifeAdvanced
         {
             String code = textBox1.Text;
             bool found = false;
+            
             foreach(CardEvent c in Global.cardDatabase)
             {
-                if (c.cardCode.Equals(code))
+                if (c.cardCode.Equals(code.ToUpper()))
                 {
                     Global.currentCardEvent = c;
                     found = true;
@@ -31,12 +32,23 @@ namespace LifeAdvanced
             }
             if (!found)
             {
-                MessageBox.Show("The code that has been enetered does not match any of the cards.", "Invalid Code", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("The code that has been entered does not match any of the cards.", "Invalid Code", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                //Code to load result screen
+                Global.isCard = true;
+                Global.currentCardEvent.initEvent();
+                Form newGame = new ResultScreen();
+                newGame.Show();
+                newGame.Location = this.Location;
+                this.Hide();
+                
             }
+
+        }
+
+        private void CardScreen_Load(object sender, EventArgs e)
+        {
 
         }
     }

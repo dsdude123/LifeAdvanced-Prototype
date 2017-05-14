@@ -11,11 +11,11 @@ namespace LifeAdvanced
 
         public override void choice1()
         {
-            return; //Depreciated
+            throw new NotImplementedException();
         }
         public override void choice2()
         {
-            return; //Depreciated
+            throw new NotImplementedException();
         }
     }
 }
