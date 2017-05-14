@@ -13,6 +13,7 @@ namespace LifeAdvanced
         public static int numPlayers;
         public static int playerTurn = 1;
         public static Event currentEvent;
+        public static CardEvent currentCardEvent;
         public static List<Event> eventDatabase;
         public static List<CardEvent> cardDatabase;
 
@@ -45,21 +46,5 @@ namespace LifeAdvanced
             }
  
         }
-
-        public static Event getRandomCardEvent()
-        {
-            //TODO: Fix 1 event or empty database bug
-            if (((cardDatabase.Count() - 1) == 0))
-            {
-                return cardDatabase.ElementAt(0);
-            }
-            else
-            {
-                Random c = new Random();
-                return cardDatabase.ElementAt(c.Next(0, (cardDatabase.Count() - 1)));
-            }
-
-        }
-
     }
 }
