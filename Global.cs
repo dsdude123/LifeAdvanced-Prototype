@@ -22,17 +22,22 @@ namespace LifeAdvanced
         {
             eventDatabase = new List<Event>();
             eventDatabase.Add(new Events.CarCrash());
-            eventDatabase.Add(new Events.CarCrash());//Temporary to populate database
-            eventDatabase.Add(new Events.CarCrash());
-
         }
 
 
         public static Event getRandomEvent()
         {
             //TODO: Fix 1 event or empty database bug
-            Random c = new Random();
-            return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Capacity - 1)));   
+            if (((eventDatabase.Count() - 1) == 0))
+            {
+                return eventDatabase.ElementAt(0);
+            }
+            else
+            {
+                Random c = new Random();
+                return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Count() - 1)));  
+            }
+ 
         }
 
     }
