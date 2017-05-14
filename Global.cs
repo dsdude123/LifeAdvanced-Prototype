@@ -14,6 +14,7 @@ namespace LifeAdvanced
         public static int playerTurn = 1;
         public static Event currentEvent;
         public static List<Event> eventDatabase;
+        public static List<CardEvent> cardDatabase;
 
         public static int[] cardTiles = new int[9] {2,8,15,18,22,26,32,36,41};
 
@@ -24,10 +25,15 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.CarCrash());
         }
 
+        public static void populateCardDatabase()
+        {
+            cardDatabase = new List<CardEvent>();
+            //Add card events here
+        }
+
 
         public static Event getRandomEvent()
         {
-            //TODO: Fix 1 event or empty database bug
             if (((eventDatabase.Count() - 1) == 0))
             {
                 return eventDatabase.ElementAt(0);
@@ -38,6 +44,21 @@ namespace LifeAdvanced
                 return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Count() - 1)));  
             }
  
+        }
+
+        public static Event getRandomCardEvent()
+        {
+            //TODO: Fix 1 event or empty database bug
+            if (((cardDatabase.Count() - 1) == 0))
+            {
+                return cardDatabase.ElementAt(0);
+            }
+            else
+            {
+                Random c = new Random();
+                return cardDatabase.ElementAt(c.Next(0, (cardDatabase.Count() - 1)));
+            }
+
         }
 
     }

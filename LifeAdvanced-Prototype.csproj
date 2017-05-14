@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardEvent.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="EventScreen.cs">
       <SubType>Form</SubType>
