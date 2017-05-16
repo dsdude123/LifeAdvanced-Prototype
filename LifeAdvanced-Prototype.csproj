@@ -80,6 +80,8 @@
       <DependentUpon>EventScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Events\CarCrash.cs" />
+    <Compile Include="Events\LateForWork.cs" />
+    <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="GameOver.cs">
       <SubType>Form</SubType>
     </Compile>
