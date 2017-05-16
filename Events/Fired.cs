@@ -5,19 +5,19 @@ using System.Text;
 
 namespace LifeAdvanced.Events
 {
-    class JobOffer : Event
+    class Fired : Event
     {
-        public JobOffer()
+        public Fired()
         {
             initEvent();
         }
 
         public override void initEvent()
         {
-            this.eventName = "Job Offer";
-            this.eventText = "Your excellent performance in your position has been recognized by many companies and recruiters. You receive an offer with a higher salary.";
-            this.choice1Text = "Tell your manager";
-            this.choice2Text = "Leave without explanation";
+            this.eventName = "Pending Termination";
+            this.eventText = "You constanly miss meetings and fail to finish work on time. Your boss finally got tired of you and decided that he wants to fire you.";
+            this.choice1Text = "Discuss the problem with the boss";
+            this.choice2Text = "Get mad";
             this.phaseCodes = new int[6] { 2, 3, 4, 5, 6, 7};
             this.effectChooser = new Random();
         }
@@ -26,18 +26,18 @@ namespace LifeAdvanced.Events
             int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
-                this.resultText = "Your manager grants you a promotion.";
-                this.effectText = "+2 Happiness";
+                this.resultText = "You beg the boss for another chance.";
+                this.effectText = "EFFECT_TEXT";
             }
             else if (c == 2)
             {
-                this.resultText = "You are relieved of duty from your old job.";
+                this.resultText = "You do a favor for the boss to earn another chance.";
                 this.effectText = "No effect";
             }
             else if (c == 3)
             {
-                this.resultText = "Your manager raises your salary to the same level as the job offer.";
-                this.effectText = "+100 Money";
+                this.resultText = "Your boss accepts the decision."; //What?
+                this.effectText = "EFFECT_TEXT";
             }
             else
             {
@@ -50,24 +50,23 @@ namespace LifeAdvanced.Events
             int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
-                this.resultText = "You struggle in the new work environment.";
+                this.resultText = "You quickly pack up and leave.";
                 this.effectText = "+1 Stress";
             }
             else if (c == 2)
             {
-                this.resultText = "You are quickly promoted at your new company because of your work experience.";
-                this.effectText = "+200 Money";
+                this.resultText = "In an rage of anger you hit your boss who then calls the cops. You are arrested.";
+                this.effectText = "Skip 1 turn. -100 Money";
             }
             else if (c == 3)
             {
-                this.resultText = "Your new company cuts employess due to a decreasing workload.";
+                this.resultText = "You decide to trash talk to boss to try to get others to leave the company with you.";
                 this.effectText = "-3 Happiness";
             }
             else
             {
                 throw new ArgumentOutOfRangeException();
             }
-            
         }
     }
 }
