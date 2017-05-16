@@ -7,7 +7,7 @@ namespace LifeAdvanced.Events
 {
     class Pregnant : Event
     {
-        public CarCrash()
+        public Pregnant()
         {
             initEvent();
         }
