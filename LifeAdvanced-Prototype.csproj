@@ -84,6 +84,7 @@
     <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="Events\Pregnant.cs" />
     <Compile Include="Events\SoccerWindow.cs" />
+    <Compile Include="Events\StudyAbroad.cs" />
     <Compile Include="Events\UnitedAirlines.cs" />
     <Compile Include="Events\WonJobVacation.cs" />
     <Compile Include="GameOver.cs">
