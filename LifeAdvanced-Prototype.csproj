@@ -81,10 +81,12 @@
     </Compile>
     <Compile Include="Events\CarCrash.cs" />
     <Compile Include="Events\Fired.cs" />
+    <Compile Include="Events\GamblingAddiction.cs" />
     <Compile Include="Events\IdentityTheft.cs" />
     <Compile Include="Events\JobOffer.cs" />
     <Compile Include="Events\LateForWork.cs" />
     <Compile Include="Events\PhysicalTrainingDay.cs" />
+    <Compile Include="Events\Match4.cs" />
     <Compile Include="Events\Pregnant.cs" />
     <Compile Include="Events\SoccerWindow.cs" />
     <Compile Include="Events\StudyAbroad.cs" />
