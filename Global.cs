@@ -25,6 +25,18 @@ namespace LifeAdvanced
         {
             eventDatabase = new List<Event>();
             eventDatabase.Add(new Events.CarCrash());
+            eventDatabase.Add(new Events.Fired());
+            eventDatabase.Add(new Events.GamblingAddiction());
+            eventDatabase.Add(new Events.IdentityTheft());
+            eventDatabase.Add(new Events.JobOffer());
+            eventDatabase.Add(new Events.LateForWork());
+            eventDatabase.Add(new Events.Match4());
+            eventDatabase.Add(new Events.PhysicalTrainingDay());
+            eventDatabase.Add(new Events.Pregnant());
+            eventDatabase.Add(new Events.SoccerWindow());
+            eventDatabase.Add(new Events.StudyAbroad());
+            eventDatabase.Add(new Events.UnitedAirlines());
+            eventDatabase.Add(new Events.WonJobVacation());
         }
 
         public static void populateCardDatabase()
