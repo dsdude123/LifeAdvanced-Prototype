@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
 
         public override void initEvent()
         {
-            this.eventName = "Powerball";
+            this.eventName = "Match 4";
             this.eventText = "You find out you won the Washington Match 4. The prize is 10 thousand dollars. Your girlfriend at the time as being lying and cheating on you. Do you stick with her and try to work things out while you share your lottery winnings or do you move on and try to find somebody new?";
             this.choice1Text = "Try to work things out";
             this.choice2Text = "Leave her";
