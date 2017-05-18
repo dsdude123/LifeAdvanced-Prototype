@@ -32,7 +32,7 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.LateForWork());
             eventDatabase.Add(new Events.Match4());
             eventDatabase.Add(new Events.PhysicalTrainingDay());
-            eventDatabase.Add(new Events.Pregnant());
+            //eventDatabase.Add(new Events.Pregnant()); No longer used
             eventDatabase.Add(new Events.SoccerWindow());
             eventDatabase.Add(new Events.StudyAbroad());
             eventDatabase.Add(new Events.UnitedAirlines());

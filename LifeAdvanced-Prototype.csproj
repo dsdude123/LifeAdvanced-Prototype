@@ -87,7 +87,7 @@
     <Compile Include="Events\LateForWork.cs" />
     <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="Events\Match4.cs" />
-    <Compile Include="Events\Pregnant.cs" />
+    <None Include="Events\Pregnant.cs.old" />
     <Compile Include="Events\SoccerWindow.cs" />
     <Compile Include="Events\StudyAbroad.cs" />
     <Compile Include="Events\UnitedAirlines.cs" />

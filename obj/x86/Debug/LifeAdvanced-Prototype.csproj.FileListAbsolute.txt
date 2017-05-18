@@ -25,3 +25,6 @@ D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Pr
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.ResultScreen.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameOver.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.CardScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.CardScreen.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameOver.resources
+D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.ResultScreen.resources
