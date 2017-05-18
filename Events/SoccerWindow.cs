@@ -44,7 +44,7 @@ namespace LifeAdvanced.Events
             else if (c == 3)
             {
                 this.resultText = "The other player begins to chase you and in the chase you trip and are injured from the fall.";
-                this.effectText = "-2 Physical wellbeing";
+                this.effectText = "-2 Physical Wellbeing";
             }
             else
             {
@@ -67,8 +67,8 @@ namespace LifeAdvanced.Events
             }
             else if (c == 3)
             {
-                this.resultText = "You are blamed by the player."; //What?
-                this.effectText = "+1 Stress";
+                this.resultText = "You are told to no longer play soccer on the property."; //What?
+                this.effectText = "+2 Happiness";
             }
             else
             {

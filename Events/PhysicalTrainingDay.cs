@@ -32,12 +32,12 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "The instructor suggest you purchase a training pack.";
-                this.effectText = "-400 Money";
+                this.effectText = "-200 Money +3 Physical Wellbeing";
             }
             else if (c == 3)
             {
                 this.resultText = "The instructor gets carried away in coversation and ends up not training you as well.";
-                this.effectText = "-2 Stress"; //This doesn't make sense
+                this.effectText = "+2 Stress"; //This doesn't make sense
             }
             else
             {
@@ -51,7 +51,7 @@ namespace LifeAdvanced.Events
             if (c == 1)
             {
                 this.resultText = "Your training ends up running longer than expected.";
-                this.effectText = "-3 Energy";
+                this.effectText = "-3 Physical Wellbeing";
             }
             else if (c == 2)
             {
@@ -60,7 +60,7 @@ namespace LifeAdvanced.Events
             }
             else if (c == 3)
             {
-                this.resultText = "TEXT_HALFHEARTED"; //TODO: Fix me
+                this.resultText = "You end up not getting enough excercise."; 
                 this.effectText = "No effect";
             }
             else

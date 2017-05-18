@@ -32,7 +32,7 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "You purchase lots of gifts on your trip.";
-                this.effectText = "-200 Money";
+                this.effectText = "-100 Money +1 Happiness";
             }
             else if (c == 3)
             {
@@ -61,7 +61,7 @@ namespace LifeAdvanced.Events
             else if (c == 3)
             {
                 this.resultText = "You decide to be lazy and sleep for most of the week.";
-                this.effectText = "No effect";
+                this.effectText = "+2 Physical Wellbeing";
             }
             else
             {

@@ -32,7 +32,7 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "In the rush to get to work, you forget to have breakfast.";
-                this.effectText = "-3 Energy";
+                this.effectText = "-3 Physical Wellbeing";
             }
             else if (c == 3)
             {

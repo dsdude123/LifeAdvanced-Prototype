@@ -27,7 +27,7 @@ namespace LifeAdvanced.Events
             if (c == 1)
             {
                 this.resultText = "Your manager grants you a promotion.";
-                this.effectText = "+2 Happiness";
+                this.effectText = "+2 Happiness. Increase your income level by 1.";
             }
             else if (c == 2)
             {
@@ -37,7 +37,7 @@ namespace LifeAdvanced.Events
             else if (c == 3)
             {
                 this.resultText = "Your manager raises your salary to the same level as the job offer.";
-                this.effectText = "+100 Money";
+                this.effectText = "+100 Money. Increase your income level by 1.";
             }
             else
             {
@@ -56,7 +56,7 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "You are quickly promoted at your new company because of your work experience.";
-                this.effectText = "+200 Money";
+                this.effectText = "+200 Money. Increase your income level by 2.";
             }
             else if (c == 3)
             {

@@ -51,7 +51,7 @@ namespace LifeAdvanced.Events
             if (c == 1)
             {
                 this.resultText = "Your attempt to stay results in a physical altercation.";
-                this.effectText = "-3 Physical wellbeing";
+                this.effectText = "-3 Physical Wellbeing";
             }
             else if (c == 2)
             {

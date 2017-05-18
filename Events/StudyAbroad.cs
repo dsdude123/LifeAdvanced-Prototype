@@ -32,12 +32,12 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "You gain advanced knowledge from your studies overseas.";
-                this.effectText = "+2 Happiness";
+                this.effectText = "+2 Knowledge";
             }
             else if (c == 3)
             {
                 this.resultText = "The tuition costs turn out to be much higher than expected.";
-                this.effectText = "-2 Energy"; //This doesn't seem right
+                this.effectText = "-2 Happiness";
             }
             else
             {
@@ -50,8 +50,8 @@ namespace LifeAdvanced.Events
             int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
-                this.resultText = "TEXT_LESSCOMPETITIVE";
-                this.effectText = "+3 Stress";
+                this.resultText = "You find the the competitive environment you enjoyed starts to become less competitive.";
+                this.effectText = "-3 Happiness";
             }
             else if (c == 2)
             {

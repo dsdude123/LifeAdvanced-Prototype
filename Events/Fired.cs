@@ -26,8 +26,8 @@ namespace LifeAdvanced.Events
             int c = effectChooser.Next(1, 4);
             if (c == 1)
             {
-                this.resultText = "You beg the boss for another chance.";
-                this.effectText = "EFFECT_TEXT";
+                this.resultText = "You beg the boss for another chance. Fortinutely, he grants you one.";
+                this.effectText = "-1 Stress";
             }
             else if (c == 2)
             {
@@ -36,8 +36,8 @@ namespace LifeAdvanced.Events
             }
             else if (c == 3)
             {
-                this.resultText = "Your boss accepts the decision."; //What?
-                this.effectText = "EFFECT_TEXT";
+                this.resultText = "Despite your attempts, the boss still fires you.";
+                this.effectText = "Reduce your income level by 1.";
             }
             else
             {
@@ -51,12 +51,12 @@ namespace LifeAdvanced.Events
             if (c == 1)
             {
                 this.resultText = "You quickly pack up and leave.";
-                this.effectText = "+1 Stress";
+                this.effectText = "+1 Stress. Reduce your income level by 1.";
             }
             else if (c == 2)
             {
                 this.resultText = "In an rage of anger you hit your boss who then calls the cops. You are arrested.";
-                this.effectText = "Skip 1 turn. -100 Money";
+                this.effectText = "Skip 1 turn. -100 Money. Reduce your income level by 1.";
             }
             else if (c == 3)
             {
