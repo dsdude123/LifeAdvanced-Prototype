@@ -82,6 +82,7 @@
     <Compile Include="Events\BusFare.cs" />
     <Compile Include="Events\CarCrash.cs" />
     <Compile Include="Events\CompanyRumor.cs" />
+    <Compile Include="Events\Divorce.cs" />
     <Compile Include="Events\DogPadlock.cs" />
     <Compile Include="Events\Earthquake.cs" />
     <Compile Include="Events\Fired.cs" />
