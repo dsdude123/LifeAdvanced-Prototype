@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="CardEvent.cs" />
     <Compile Include="CardEvents\HouseFire.cs" />
+    <Compile Include="CardEvents\LargeInheritance.cs" />
     <Compile Include="CardEvents\TestCard.cs" />
     <Compile Include="CardEvents\Windstorm.cs" />
     <Compile Include="CardScreen.cs">
