@@ -17,7 +17,7 @@ namespace LifeAdvanced.Events
             this.eventName = "Layoffs";
             this.eventText = "You lose your job this moring due to the company reducing its workforce.";
             this.choice1Text = "Take a month break";
-            this.choice2Text = "Seek a new job imediately"; //Spell check me
+            this.choice2Text = "Seek a new job imediately"; //TODO:Spell check me
             this.phaseCodes = new int[1] {3};
             this.effectChooser = new Random();
         }
@@ -61,7 +61,7 @@ namespace LifeAdvanced.Events
             else if (c == 3)
             {
                 this.resultText = "You take a part-time job to cover your living expenses.";
-                this.effectText = "+400 Money"; //Maybe set income level to 1 (100 per turn)
+                this.effectText = "+400 Money"; //TODO:Maybe set income level to 1 (100 per turn)
             }
             else
             {

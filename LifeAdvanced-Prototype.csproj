@@ -81,6 +81,7 @@
     </Compile>
     <Compile Include="Events\BusFare.cs" />
     <Compile Include="Events\CarCrash.cs" />
+    <Compile Include="Events\CompanyRumor.cs" />
     <Compile Include="Events\DogPadlock.cs" />
     <Compile Include="Events\Earthquake.cs" />
     <Compile Include="Events\Fired.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Events\SoccerWindow.cs" />
     <Compile Include="Events\StudyAbroad.cs" />
     <Compile Include="Events\UnitedAirlines.cs" />
+    <Compile Include="Events\UnusualPain.cs" />
     <Compile Include="Events\WonJobVacation.cs" />
     <Compile Include="GameOver.cs">
       <SubType>Form</SubType>

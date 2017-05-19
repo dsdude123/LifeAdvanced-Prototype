@@ -32,7 +32,7 @@ namespace LifeAdvanced.Events
             else if (c == 2)
             {
                 this.resultText = "After selling your stocks, the company releases new products and the price of the stocks goes up.";
-                this.effectText = "-300 Money"; //Might not make sense unless you try to rebuy stocks
+                this.effectText = "-300 Money"; //TODO:Might not make sense unless you try to rebuy stocks
             }
             else if (c == 3)
             {
