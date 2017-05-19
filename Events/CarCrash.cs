@@ -51,12 +51,12 @@ namespace LifeAdvanced.Events
             if (c == 1)
             {
                 this.resultText = "Your attempt to flee seems sucessful at first, but the next morning you are awoken by police at your front door and arrested for hit and run.";
-                this.effectText = "Skip 2 turns. -1000 Money";
+                this.effectText = "-1000 Money";
             }
             else if (c == 2)
             {
                 this.resultText = "Your attempt to flee is quickly stopped by the other driver. You are injured in the event.";
-                this.effectText = "-3 Health";
+                this.effectText = "-3 Physical Wellbeing";
             }
             else if (c == 3)
             {
