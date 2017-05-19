@@ -80,6 +80,7 @@
       <DependentUpon>EventScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Events\CarCrash.cs" />
+    <Compile Include="Events\DogPadlock.cs" />
     <Compile Include="Events\Fired.cs" />
     <Compile Include="Events\GamblingAddiction.cs" />
     <Compile Include="Events\IdentityTheft.cs" />
