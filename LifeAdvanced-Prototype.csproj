@@ -104,6 +104,7 @@
     <Compile Include="Events\StudyAbroad.cs" />
     <Compile Include="Events\UnitedAirlines.cs" />
     <Compile Include="Events\UnusualPain.cs" />
+    <Compile Include="Events\ValuesConflict.cs" />
     <Compile Include="Events\WonJobVacation.cs" />
     <Compile Include="GameOver.cs">
       <SubType>Form</SubType>
