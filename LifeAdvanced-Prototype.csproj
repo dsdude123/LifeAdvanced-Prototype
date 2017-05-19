@@ -79,12 +79,14 @@
     <Compile Include="EventScreen.Designer.cs">
       <DependentUpon>EventScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Events\BusFare.cs" />
     <Compile Include="Events\CarCrash.cs" />
     <Compile Include="Events\DogPadlock.cs" />
     <Compile Include="Events\Fired.cs" />
     <Compile Include="Events\FriendTheft.cs" />
     <Compile Include="Events\GamblingAddiction.cs" />
     <Compile Include="Events\GFCheat.cs" />
+    <Compile Include="Events\Hacker.cs" />
     <Compile Include="Events\IdentityTheft.cs" />
     <Compile Include="Events\JobOffer.cs" />
     <Compile Include="Events\LateForWork.cs" />
