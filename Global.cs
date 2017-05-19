@@ -37,6 +37,21 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.StudyAbroad());
             eventDatabase.Add(new Events.UnitedAirlines());
             eventDatabase.Add(new Events.WonJobVacation());
+            eventDatabase.Add(new Events.BusFare());
+            eventDatabase.Add(new Events.CompanyRumor());
+            eventDatabase.Add(new Events.Divorce());
+            eventDatabase.Add(new Events.DogPadlock());
+            eventDatabase.Add(new Events.Earthquake());
+            eventDatabase.Add(new Events.FriendTheft());
+            eventDatabase.Add(new Events.GFCheat());
+            eventDatabase.Add(new Events.Hacker());
+            eventDatabase.Add(new Events.Layoff());
+            eventDatabase.Add(new Events.MMAWeed());
+            eventDatabase.Add(new Events.NightOut());
+            eventDatabase.Add(new Events.SnowBirthday());
+            eventDatabase.Add(new Events.UnusualPain());
+            eventDatabase.Add(new Events.ValuesConflict());
+            
         }
 
         public static void populateCardDatabase()
