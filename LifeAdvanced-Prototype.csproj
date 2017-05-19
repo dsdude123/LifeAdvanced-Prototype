@@ -82,10 +82,13 @@
     <Compile Include="Events\CarCrash.cs" />
     <Compile Include="Events\DogPadlock.cs" />
     <Compile Include="Events\Fired.cs" />
+    <Compile Include="Events\FriendTheft.cs" />
     <Compile Include="Events\GamblingAddiction.cs" />
+    <Compile Include="Events\GFCheat.cs" />
     <Compile Include="Events\IdentityTheft.cs" />
     <Compile Include="Events\JobOffer.cs" />
     <Compile Include="Events\LateForWork.cs" />
+    <Compile Include="Events\MMAWeed.cs" />
     <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="Events\Match4.cs" />
     <None Include="Events\Pregnant.cs.old" />
