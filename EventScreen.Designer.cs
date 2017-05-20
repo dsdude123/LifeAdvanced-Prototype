@@ -36,15 +36,15 @@
             // 
             // title
             // 
-            this.title.AutoSize = true;
             this.title.BackColor = System.Drawing.Color.Black;
             this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.White;
-            this.title.Location = new System.Drawing.Point(460, 61);
+            this.title.Location = new System.Drawing.Point(12, 61);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(335, 73);
+            this.title.Size = new System.Drawing.Size(1240, 73);
             this.title.TabIndex = 0;
             this.title.Text = "Event Title";
+            this.title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // text
             // 
