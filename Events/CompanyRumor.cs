@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "You hear a rumor about big change in the company you hold stocks in.";
             this.choice1Text = "Sell the stocks";
             this.choice2Text = "Keep the stocks";
-            this.phaseCodes = new int[1] {4};
+            this.phaseCodes = new int[3] {3,4,5};
             this.effectChooser = new Random();
         }
         public override void choice1()

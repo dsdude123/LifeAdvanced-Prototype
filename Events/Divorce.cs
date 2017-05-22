@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "You have recently gone through a divorce. Your friends decided to take you out to the bar for a drink. You happen to sit down next to a person, and the bartender told you that they have gone through a divorce.";
             this.choice1Text = "Very gently and kindly offer them a drink to start a conversation";
             this.choice2Text = "Slide a bottle of beer over towards their direction, wanting a conversation";
-            this.phaseCodes = new int[1] {5};
+            this.phaseCodes = new int[2] {4,5};
             this.effectChooser = new Random();
         }
         public override void choice1()
