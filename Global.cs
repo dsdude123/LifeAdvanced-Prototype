@@ -58,6 +58,17 @@ namespace LifeAdvanced
         {
             cardDatabase = new List<CardEvent>();
             cardDatabase.Add(new CardEvents.TestCard());
+            cardDatabase.Add(new CardEvents.BreakIn());
+            cardDatabase.Add(new CardEvents.CarCrash2());
+            cardDatabase.Add(new CardEvents.Earthquake2());
+            cardDatabase.Add(new CardEvents.Hacker2());
+            cardDatabase.Add(new CardEvents.HouseFire());
+            cardDatabase.Add(new CardEvents.JobPromotion());
+            cardDatabase.Add(new CardEvents.LargeInheritance());
+            cardDatabase.Add(new CardEvents.Paris());
+            cardDatabase.Add(new CardEvents.RadioContest());
+            cardDatabase.Add(new CardEvents.SemiTruckCrash());
+            cardDatabase.Add(new CardEvents.Snowstorm());
         }
 
 
