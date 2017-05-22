@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "You lose your job this moring due to the company reducing its workforce.";
             this.choice1Text = "Take a month break";
             this.choice2Text = "Seek a new job imediately"; //TODO:Spell check me
-            this.phaseCodes = new int[1] {3};
+            this.phaseCodes = new int[3] {3,4,5};
             this.effectChooser = new Random();
         }
         public override void choice1()

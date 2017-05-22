@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "Your dog swallows padlock and needs expensive stomach surgery. You forgot to get pet insurance and this surgery is going to cost almost 5,000. Do you let your dog suffer in agony or do you move back in with your parents so you can use the money you have saved to save your dog.";
             this.choice1Text = "Move back home";
             this.choice2Text = "Let the dog suffer";
-            this.phaseCodes = new int[1] {4};
+            this.phaseCodes = new int[3] {3,4,5};
             this.effectChooser = new Random();
         }
         public override void choice1()

@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "Someone steals your identity and gets your tax return sent to them and cashes it. You find out that it was your brother. It was only a few thousand dollars but you could get him sent to prison.";
             this.choice1Text = "Contact the IRS";
             this.choice2Text = "Let it slide";
-            this.phaseCodes = new int[1] {6};
+            this.phaseCodes = new int[5] {2,3,4,5,6};
             this.effectChooser = new Random();
         }
         public override void choice1()

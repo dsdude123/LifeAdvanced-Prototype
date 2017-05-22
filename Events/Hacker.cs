@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "You love to use computers, and uses multiple screens to do homework and play games/watching netflix simultaneously. One day you start noticing some of your files have disappeared, and some of your accounts are inaccessible caused by a hacker implanting a virus on your computer. Would you try to hire a professional to remove the virus and recover the files/accounts, or spend a lot of money/time to buy a new computer and redo those files/accounts?";
             this.choice1Text = "Hire a professional";
             this.choice2Text = "Buy a new computer";
-            this.phaseCodes = new int[1] { 2};
+            this.phaseCodes = new int[2] { 2,3};
             this.effectChooser = new Random();
         }
         public override void choice1()

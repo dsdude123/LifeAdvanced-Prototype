@@ -18,7 +18,7 @@ namespace LifeAdvanced.Events
             this.eventText = "You take it ill-advised trip to Las Vegas with your friends from work. You end up losing the house in a poker game. What do you tell your kids? That's some of your stock investments ran dry and you will have to move into an apartment or do you reveal that you're a compulsive Gambler and need to go to Gamblers Anonymous.";
             this.choice1Text = "Tell the truth";
             this.choice2Text = "Lie";
-            this.phaseCodes = new int[1] {6};
+            this.phaseCodes = new int[4] {3,4,5,6};
             this.effectChooser = new Random();
         }
         public override void choice1()
