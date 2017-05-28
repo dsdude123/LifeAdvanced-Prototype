@@ -112,5 +112,31 @@ namespace LifeAdvanced
 
             throw new ExecutionEngineException();
         }
+
+        public static int getCurrentTile()
+        {
+            if (Global.playerTurn == 1)
+            {
+                return p1.tilePos;
+            }
+            else if (Global.playerTurn == 2)
+            {
+                return p2.tilePos;
+            }
+            else if (Global.playerTurn == 3)
+            {
+                return p3.tilePos;
+            }
+            else if (Global.playerTurn == 4)
+            {
+                return p4.tilePos;
+            }
+            else if (Global.playerTurn == 5)
+            {
+                return p5.tilePos;
+            }
+
+            throw new ExecutionEngineException();
+        }
     }
 }

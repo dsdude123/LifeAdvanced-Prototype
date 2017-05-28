@@ -22,6 +22,8 @@ namespace LifeAdvanced
             text.Text = Global.currentEvent.eventText;
             choice1.Text = Global.currentEvent.choice1Text;
             choice2.Text = Global.currentEvent.choice2Text;
+            label3.Text = Global.getCurrentTile().ToString();
+            label4.Text = Global.getCurrentPhase().ToString();
         }
 
         private void choice1_Click(object sender, EventArgs e)
