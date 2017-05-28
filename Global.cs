@@ -69,6 +69,7 @@ namespace LifeAdvanced
             cardDatabase.Add(new CardEvents.RadioContest());
             cardDatabase.Add(new CardEvents.SemiTruckCrash());
             cardDatabase.Add(new CardEvents.Snowstorm());
+            cardDatabase.Add(new CardEvents.Windstorm());
         }
 
 
