@@ -1,4 +1,3 @@
-C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Form1.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.Properties.Resources.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced-Prototype.csproj.GenerateResource.Cache
@@ -28,3 +27,5 @@ C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\Lif
 D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.CardScreen.resources
 D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.GameOver.resources
 D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.ResultScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Debug\LifeAdvancedPrototype.exe.config
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced-Prototype.csprojResolveAssemblyReference.cache
