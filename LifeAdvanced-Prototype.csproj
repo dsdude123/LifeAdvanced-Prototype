@@ -111,6 +111,7 @@
     <Compile Include="EventScreen.Designer.cs">
       <DependentUpon>EventScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Events\BadWeather.cs" />
     <Compile Include="Events\BusFare.cs" />
     <Compile Include="Events\CarCrash.cs" />
     <Compile Include="Events\CompanyRumor.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="Events\Layoff.cs" />
     <Compile Include="Events\MMAWeed.cs" />
     <Compile Include="Events\NewSoftware.cs" />
+    <Compile Include="Events\NiceWeather.cs" />
     <Compile Include="Events\NightOut.cs" />
     <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="Events\Match4.cs" />
