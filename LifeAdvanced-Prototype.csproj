@@ -127,6 +127,7 @@
     <Compile Include="Events\LateForWork.cs" />
     <Compile Include="Events\Layoff.cs" />
     <Compile Include="Events\MMAWeed.cs" />
+    <Compile Include="Events\NewSoftware.cs" />
     <Compile Include="Events\NightOut.cs" />
     <Compile Include="Events\PhysicalTrainingDay.cs" />
     <Compile Include="Events\Match4.cs" />
