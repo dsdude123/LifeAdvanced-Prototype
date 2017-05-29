@@ -112,7 +112,7 @@ namespace LifeAdvanced
                 return p5.getPhase();
             }
 
-            throw new ExecutionEngineException();
+            throw new ArgumentOutOfRangeException();
         }
 
         public static int getCurrentTile()
@@ -138,7 +138,7 @@ namespace LifeAdvanced
                 return p5.tilePos;
             }
 
-            throw new ExecutionEngineException();
+            throw new ArgumentOutOfRangeException();
         }
     }
 }

@@ -241,7 +241,7 @@ namespace LifeAdvanced
             }
             else
             {
-                throw new ExecutionEngineException();
+                throw new ArgumentOutOfRangeException();
             }
 
             Form newGame = new EventScreen();
