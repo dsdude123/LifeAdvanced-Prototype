@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EventScreen));
             this.title = new System.Windows.Forms.Label();
             this.text = new System.Windows.Forms.TextBox();
             this.choice1 = new System.Windows.Forms.Button();
@@ -148,6 +149,7 @@
             this.Controls.Add(this.text);
             this.Controls.Add(this.title);
             this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EventScreen";
             this.Text = "EventScreen";
             this.Load += new System.EventHandler(this.EventScreen_Load);
