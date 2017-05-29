@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace LifeAdvanced
 {
+    //TODO: Add skip spaces options (advanced options)
     public partial class GameSetup : Form
     {
         private static int players;
