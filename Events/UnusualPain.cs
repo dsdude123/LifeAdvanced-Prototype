@@ -36,7 +36,7 @@ namespace LifeAdvanced.Events
             }
             else if (c == 3)
             {
-                this.resultText = "It is much worse than you thought, expensive treatments."; //TODO:Might need to reword this
+                this.resultText = "It is much worse than you thought reulting in expensive treatments.";
                 this.effectText = "-300 Money";
             }
             else
