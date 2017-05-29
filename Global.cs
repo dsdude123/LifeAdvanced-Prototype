@@ -53,7 +53,13 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.SnowBirthday());
             eventDatabase.Add(new Events.UnusualPain());
             eventDatabase.Add(new Events.ValuesConflict());
-            
+            eventDatabase.Add(new Events.BadWeather());
+            eventDatabase.Add(new Events.NiceWeather());
+            eventDatabase.Add(new Events.SamsungBattery());
+            eventDatabase.Add(new Events.NewSoftware());
+            eventDatabase.Add(new Events.TestCheat());
+
+
         }
 
         public static void populateCardDatabase()
@@ -72,6 +78,7 @@ namespace LifeAdvanced
             cardDatabase.Add(new CardEvents.SemiTruckCrash());
             cardDatabase.Add(new CardEvents.Snowstorm());
             cardDatabase.Add(new CardEvents.Windstorm());
+            cardDatabase.Add(new CardEvents.Scholarship());
         }
 
 
