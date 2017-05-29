@@ -140,6 +140,7 @@
     <Compile Include="Events\SoccerWindow.cs" />
     <Compile Include="Events\StudyAbroad.cs" />
     <Compile Include="Events\StudyFriend.cs" />
+    <Compile Include="Events\TestCheat.cs" />
     <Compile Include="Events\UnitedAirlines.cs" />
     <Compile Include="Events\UnusualPain.cs" />
     <Compile Include="Events\ValuesConflict.cs" />
