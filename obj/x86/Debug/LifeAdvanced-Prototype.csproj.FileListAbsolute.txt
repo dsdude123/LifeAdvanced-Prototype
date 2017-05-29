@@ -29,3 +29,4 @@ D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Pr
 D:\dsdud\Documents\Visual Studio Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.ResultScreen.resources
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Debug\LifeAdvancedPrototype.exe.config
 C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced-Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Debug\LifeAdvanced.AdvancedOptions.resources

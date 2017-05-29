@@ -60,23 +60,23 @@ namespace LifeAdvanced
         {
             if (Global.playerTurn == 1)
             {
-                Global.p1.tilePos++;
+                Global.p1.tilePos += Global.tileSkip;
             }
             else if (Global.playerTurn == 2)
             {
-                Global.p2.tilePos++;
+                Global.p2.tilePos += Global.tileSkip;
             }
             else if (Global.playerTurn == 3)
             {
-                Global.p3.tilePos++;
+                Global.p3.tilePos += Global.tileSkip;
             }
             else if (Global.playerTurn == 4)
             {
-                Global.p4.tilePos++;
+                Global.p4.tilePos += Global.tileSkip;
             }
             else if (Global.playerTurn == 5)
             {
-                Global.p5.tilePos++;
+                Global.p5.tilePos += Global.tileSkip;
             }
 
         }

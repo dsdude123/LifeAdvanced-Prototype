@@ -80,5 +80,12 @@ namespace LifeAdvanced
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form newGame = new AdvancedOptions(this);
+            newGame.Show();
+            this.Enabled = false;
+        }
     }
 }

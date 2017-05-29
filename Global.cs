@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace LifeAdvanced
 {
@@ -17,6 +18,7 @@ namespace LifeAdvanced
         public static List<Event> eventDatabase;
         public static List<CardEvent> cardDatabase;
         public static bool isCard = false;
+        public static int tileSkip = 1;
 
         public static int[] cardTiles = new int[9] {2,8,15,18,22,26,32,36,41};
 

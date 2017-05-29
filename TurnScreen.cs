@@ -18,7 +18,7 @@ namespace LifeAdvanced
 
         private void TurnScreen_Load(object sender, EventArgs e)
         {
-            if (checkEndGame())
+             if (checkEndGame())
             {
                 Form newGame = new GameOver();
                 newGame.Show();
