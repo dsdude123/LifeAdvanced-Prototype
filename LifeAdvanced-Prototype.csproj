@@ -93,6 +93,7 @@
     <Compile Include="CardEvents\LargeInheritance.cs" />
     <Compile Include="CardEvents\Paris.cs" />
     <Compile Include="CardEvents\RadioContest.cs" />
+    <Compile Include="CardEvents\Scholarship.cs" />
     <Compile Include="CardEvents\SemiTruckCrash.cs" />
     <Compile Include="CardEvents\Snowstorm.cs" />
     <Compile Include="CardEvents\TestCard.cs" />
