@@ -128,6 +128,7 @@
     <Compile Include="Events\LateForWork.cs" />
     <Compile Include="Events\Layoff.cs" />
     <Compile Include="Events\MMAWeed.cs" />
+    <Compile Include="Events\NewBusiness.cs" />
     <Compile Include="Events\NewSoftware.cs" />
     <Compile Include="Events\NiceWeather.cs" />
     <Compile Include="Events\NightOut.cs" />
