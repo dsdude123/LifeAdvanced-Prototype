@@ -92,7 +92,10 @@ namespace LifeAdvanced
             else
             {
                 Random c = new Random();
-                return eventDatabase.ElementAt(c.Next(0, (eventDatabase.Count() - 1)));  
+                int i = c.Next(0, (eventDatabase.Count() - 1));
+                i = c.Next(0, (eventDatabase.Count() - 1));
+                i = c.Next(0, (eventDatabase.Count() - 1));
+                return eventDatabase.ElementAt(i);  //Return the third random
             }
  
         }
