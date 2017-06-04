@@ -59,6 +59,7 @@ namespace LifeAdvanced
             eventDatabase.Add(new Events.NewSoftware());
             eventDatabase.Add(new Events.TestCheat());
             eventDatabase.Add(new Events.NewBusiness());
+            eventDatabase.Add(new Events.CollegeOffer());
 
 
         }
