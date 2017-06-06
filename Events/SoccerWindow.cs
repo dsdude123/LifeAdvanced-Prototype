@@ -23,6 +23,10 @@ namespace LifeAdvanced.Events
             player = B.Next(1,Global.numPlayers+1);
             }
             this.eventText = "While playing soccer, you break the window of Player " + player +"'s home.";
+            if (Global.numPlayers == 1)
+            {
+                this.eventText = "While playing soccer, you break the window of another persons home.";
+            }
             this.choice1Text = "Run away";
             this.choice2Text = "Tell the player";
             this.phaseCodes = new int[8] { 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -35,6 +39,11 @@ namespace LifeAdvanced.Events
             {
                 this.resultText = "Player " + player + " catches you trying to flee.";
                 this.effectText = "-200 Money to Player " + Global.playerTurn + " +200 Money to Player " + player ;
+                if (Global.numPlayers == 1)
+                {
+                    this.resultText = "The homeowner catches you trying to flee.";
+                    this.effectText = "-200 Money";
+                }
             }
             else if (c == 2)
             {
@@ -45,6 +54,10 @@ namespace LifeAdvanced.Events
             {
                 this.resultText = "The other player begins to chase you and in the chase you trip and are injured from the fall.";
                 this.effectText = "-2 Physical Wellbeing";
+                if (Global.numPlayers == 1)
+                {
+                    this.resultText = "The homeowner begins to chase you and in the chase you trip and are injured from the fall.";
+                }
             }
             else
             {
@@ -59,16 +72,25 @@ namespace LifeAdvanced.Events
             {
                 this.resultText = "Your apology to the other player is accepted.";
                 this.effectText = "+3 Happiness";
+                if (Global.numPlayers == 1)
+                {
+                    this.resultText = "Your apology to the homeowner is accepted.";
+                }
             }
             else if (c == 2)
             {
                 this.resultText = "The other player asks you to pay for repairs.";
                 this.effectText = "-100 Money to Player " + Global.playerTurn + " +100 Money to Player " + player;
+                if (Global.numPlayers == 1)
+                {
+                    this.resultText = "The homeowner asks you to pay for repairs.";
+                    this.effectText = "-100 Money";
+                }
             }
             else if (c == 3)
             {
-                this.resultText = "You are told to no longer play soccer on the property."; //What?
-                this.effectText = "+2 Happiness";
+                this.resultText = "You are told to no longer play soccer on the property."; 
+                this.effectText = "-2 Happiness";
             }
             else
             {

@@ -1,0 +1,17 @@
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Release\LifeAdvancedPrototype.exe.config
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Release\LifeAdvancedPrototype.exe
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\bin\x86\Release\LifeAdvancedPrototype.pdb
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced-Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.AdvancedOptions.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.CardScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.EventScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.Form1.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.GameOver.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.GameSetup.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.Properties.Resources.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.Resource1.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.ResultScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced.TurnScreen.resources
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvanced-Prototype.csproj.GenerateResource.Cache
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvancedPrototype.exe
+C:\Users\Conner\Documents\Visual Studio 2008\Projects\LifeAdvanced-Prototype\LifeAdvanced-Prototype\obj\x86\Release\LifeAdvancedPrototype.pdb
